@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gabriel's Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Gabriel's Blog</h1>
+      <p class="tagline">Write. Edit. Reflect.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Editor Form -->
+    <section class="editor">
+      <h2 id="form-title">📝 New Post</h2>
+      <input type="text" id="title" placeholder="Post Title" />
+      <textarea id="content" rows="5" placeholder="Write your blog..."></textarea>
+      <button onclick="savePost()">Save</button>
+      <input type="hidden" id="editingIndex" value="">
+    </section>
+
+    <!-- Blog Posts -->
+    <div id="posts"></div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Gabriel Ebenezer | Blog with ❤️</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
