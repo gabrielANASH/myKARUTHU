@@ -14,7 +14,7 @@ This is a responsive personal blog webpage built with HTML, CSS, and JavaScript.
 - JavaScript (DOM + localStorage)
 
 📦 **Live Demo**:
-[Click to View Deployed Blog](https://yourusername.github.io/your-repo-name/)  
+[Click to View Deployed Blog](https://gabrielanash.github.io/myKARUTHU/)  
 *(Replace with your Netlify or GitHub Pages link)*
 
 ---
